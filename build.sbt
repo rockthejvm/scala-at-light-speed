@@ -1,4 +1,4 @@
-name := "youtube-scala"
+name := "scala-at-light-speed"
 
 version := "0.1"
 

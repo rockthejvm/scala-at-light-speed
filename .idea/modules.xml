@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/youtube-scala.iml" filepath="$PROJECT_DIR$/.idea/modules/youtube-scala.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/youtube-scala-build.iml" filepath="$PROJECT_DIR$/.idea/modules/youtube-scala-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-at-light-speed.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-at-light-speed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-at-light-speed-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-at-light-speed-build.iml" />
     </modules>
   </component>
 </project>

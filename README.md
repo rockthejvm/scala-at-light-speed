@@ -1,6 +1,6 @@
-# The official repository for the Rock the JVM Spark Essentials with Scala course
+# The official repository for the Rock the JVM Scala at Light Speed course
 
-This repository contains the code we wrote during  [Rock the JVM's Scala at Light Speed](https://rockthejvm.com/course/scala-at-light-speed) mini-course. Unless explicitly mentioned, the code in this repository is exactly what was caught on camera.
+This repository contains the code we wrote during  [Rock the JVM's Scala at Light Speed](https://rockthejvm.com/course/scala-at-light-speed) mini-course/video series. Unless explicitly mentioned, the code in this repository is exactly what was caught on camera.
 
 ## How to install
 

@@ -6,7 +6,7 @@ object Basics extends App {
   val meaningOfLife: Int = 42 // const int meaningOfLife = 42;
 
   // Int, Boolean, Char, Double, Float, String
-  val aBoolean = false // type is optional
+  val aBoolean = false // type mentioning is optional
 
   // strings and string operations
   val aString = "I love Scala"
@@ -16,15 +16,15 @@ object Basics extends App {
   // expressions = structures that can be reduced to a value
   val anExpression = 2 + 3
 
-  // if-expression
+  // if-expression (reduces to a single value)
   val ifExpression = if (meaningOfLife > 43) 56 else 999 // in other languages: meaningOfLife > 43 ? 56 : 999
   val chainedIfExpression =
     if (meaningOfLife > 43) 56
-    else if (meaningOfLife < 0) -2
+    else if (meaningOfLife > 0) - 2
     else if (meaningOfLife > 999) 78
     else 0
 
-  // code blocks
+  // code block
   val aCodeBlock = {
     // definitions
     val aLocalValue = 67
@@ -53,14 +53,14 @@ object Basics extends App {
 
   // In Scala we don't use loops or iteration, we use RECURSION!
 
-  // the Unit type = no meaningful value === "void" in other languages
-  // type of SIDE EFFECTS
-  println("I love Scala") // System.out.println, printf, print, console.log
+  // the Unit return types = no meaningful value === "void" in other languages
+  // type of SIDE EFFECTS, e.g., printing, showing, sending to a socket or a server, storing in a file, etc...
+  println("I love Scala") // this doesn't return anything, it just does something
 
   def myUnitReturningFunction(): Unit = {
     println("I don't love returning Unit")
   }
 
+  val theUnit = () // the same value returned by println and other functions returning unit
 
-  val theUnit = ()
 }

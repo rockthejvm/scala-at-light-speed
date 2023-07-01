@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.trueaccord.lenses</groupId>
+    <artifactId>lenses_2.12</artifactId>
+    <packaging>jar</packaging>
+    <description>lenses</description>
+    <version>0.4.12</version>
+    <name>lenses</name>
+    <organization>
+        <name>com.trueaccord.lenses</name>
+    </organization>
+    <url>https://github.com/trueaccord/lenses</url>
+    <licenses>
+        <license>
+            <name>Apache 2</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+    <scm>
+        <connection>scm:git:https://github.com/scalapb/Lenses.git</connection>
+        <developerConnection>scm:git:git@github.com:scalapb/Lenses.git</developerConnection>
+        <url>https://github.com/scalapb/Lenses</url>
+    </scm>
+    <developers>
+        <developer>
+            <id>thesamet</id>
+            <name>Nadav S. Samet</name>
+            <url>http://www.thesamet.com/</url>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.12.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scalacheck</groupId>
+            <artifactId>scalacheck_2.12</artifactId>
+            <version>1.13.5</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scalatest</groupId>
+            <artifactId>scalatest_2.12</artifactId>
+            <version>3.0.3</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

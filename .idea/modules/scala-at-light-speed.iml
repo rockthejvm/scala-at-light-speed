@@ -14,5 +14,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.1:jar" level="project" />
+    <orderEntry type="library" name="scala-sdk-2.13.12" level="application" />
   </component>
 </module>

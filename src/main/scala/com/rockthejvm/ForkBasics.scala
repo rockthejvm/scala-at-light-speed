@@ -1,6 +1,6 @@
 package com.rockthejvm
 
-object Basics extends App {
+object ForkBasics extends App {
   val meaningOfLife: Int = 42 //const int meaningOfLife = 42;
 
   val aBoolean = false //type is optional
